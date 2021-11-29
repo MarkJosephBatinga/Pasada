@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasada</title>
+    <!-- StyleSheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/loginregisterstyle.css" />
+  </head>
+
+  <body>
+    <!-- HEADER SECTION STARTS HERE -->
+      <header class="header">
+          <a href="index.html" class="logo"><i class="fas fa-route"></i>Pasada</a>
+
+          <nav class="navbar">
+              <a href="index.html">Home</a>
+              <a href="#">Restaurants</a>
+              <a href="#">About Us</a>
+          </nav>
+
+          <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <a href="myBag.html" class="fas fa-shopping-bag"></a>
+            <a href="login.html" class="fas fa-user active"></a>
+          </div>
+      </header>
+      <!-- HEADER SECTION ENDS HERE -->
+
+      <!-- LOG IN PAGE CONTENT STARTS HERE -->
+      <section class="signup-section">
+        <div class="left">
+          <img src="images/signup.svg">
+        </div>
+        <div class="right">
+          <div class="signup-form">
+            <h1>Sign Up</h1>
+            <h3>Let's create your account, kabsat!</h3>
+            <form action="register.php" method="post">
+              <input type="text" id="" name="lastName" placeholder="Last Name" required>
+              <input type="text" id="" name="firstName" placeholder="First Name" required>
+              <input type="email" id="" name="email" placeholder="Email Address" required>
+              <input type="text" id="houseNum" name="houseNum" placeholder="House Number" required>
+              <input type="text" id="barangay" name="barangay" placeholder="Barangay" required>
+              <input type="text" id="" name="phoneNum" placeholder="Mobile Phone Number" required>
+              <input type="password" id="pw" name="password" placeholder="Password" required>
+              <input type="password" id="pw" name="repeatpass" placeholder="Confirm Password" required>
+              <input type="submit" name="submit" value="SIGN UP">
+            </form>
+            <p>Already have an account? <a href="login.html">Log in here</a></p>
+          </div>
+        </div>
+      </section>
+      <!-- LOG IN PAGE CONTENT STARTS HERE -->
+
+      <!-- FOOTER SECTION STARTS HERE -->
+      <footer class="footer">
+        <div class="upper">
+          <div class="content">
+            <a href="index.html" class="logo"><i class="fas fa-route"></i>Pasada</a>
+          </div>
+
+          <div class="links">
+            <div class="link">
+              <h4>Contact Information</h4>
+              <div>
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Address</span>
+              </div>
+              <div>
+                <i class="fas fa-envelope"></i>
+                <span>pasada_official@gmail.com</span>
+              </div>
+              <div>
+                <i class="fas fa-phone-alt"></i>
+                <span>09056632987</span>
+              </div>
+            </div>
+
+            <div class="link">
+              <h4>Quick Links</h4>
+              <a href="#">Features</a>
+              <a href="#">Become a Partner</a>
+              <a href="#">Become a Rider</a>
+            </div>
+
+            <div class="link">
+              <h4>Connect with Us</h4>
+              <div>
+                <i class="fab fa-facebook"></i>
+                <span>Facebook</span>
+              </div>
+              <div>
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </div>
+              <div>
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lower">
+          <p>© 2021 Pasada. Food Ordering and Delivery Company. All Rights Reserved.</p>
+        </div>
+      </footer>
+      <!-- FOOTER SECTION ENDS HERE -->
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

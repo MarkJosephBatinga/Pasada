@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;@500;@600;@1000&display=swap");
+
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --main-orange: #E78F34;
+    --bg-orange: #FFE6C7;
+    --light-orange: #ea9c4b;
+    --placeholder: #C1C1C1;
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    --transition: all 0.2s linear;
+}
+
+/* HEADER SECTION STARTS HERE */
+.home-section1{
+    padding-top: 8rem;
+    align-items: center;
+    background-color: var(--bg-orange);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    padding: 7rem 9%;
+}
+
+.home-section1 img{
+    margin-top: 5rem;
+    width: 90%;
+}
+
+.home-section1 .content h1{
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-top: 4rem;
+    margin-bottom: 0.8rem;
+    color: var(--main-orange);
+}
+
+.home-section1 .content p{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 2.2rem;
+    color: var(--black);
+}
+
+.home-section1 .content a{
+    font-weight: 1000;
+    color: var(--white);
+    background-color: var(--main-orange);
+    border: none;
+    border-radius: 15px;
+    padding: 1.2rem;
+}
+
+.home-section1 .content a:hover{
+    background-color: var(--light-orange);
+}
