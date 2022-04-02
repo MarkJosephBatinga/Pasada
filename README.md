@@ -11,3 +11,9 @@ For the backend, php and mysql server are used for the connection and storing of
 For the Frontend, html and css with a little bit of javascript for the UI/UX.
 
 Special mention to, Juanette Catalene Lictaoa for the design of the UI/UX.
+
+Login Page
+![screencapture-localhost-Pasada-login-mainlogin-php-2022-04-02-11_27_22](https://user-images.githubusercontent.com/91181348/161365229-f8485dfb-c1a2-456c-a393-eda215929518.png)
+
+Landing Page
+![screencapture-localhost-Pasada-login-index-php-2022-04-02-11_30_35](https://user-images.githubusercontent.com/91181348/161365242-89fb1e5d-93bc-4512-9683-cd53ae15d076.png)
